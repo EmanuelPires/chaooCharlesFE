@@ -1,6 +1,10 @@
 import React from 'react';
+import AddTodo from "./AddTodo"
+import ListTodos from "./ListTodos"
 const ToDos = () => {
-    return ( <><h2>ToDos</h2></> );
+    return ( <><AddTodo/>
+    <ListTodos/>
+    </> );
 }
  
 export default ToDos;
