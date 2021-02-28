@@ -1,10 +1,14 @@
-import React from 'react';
-import AddTodo from "./AddTodo"
-import ListTodos from "./ListTodos"
+import React from "react";
+import AddTodo from "./AddTodo";
+import ListTodos from "./ListTodos";
+
 const ToDos = () => {
-    return ( <><AddTodo/>
-    <ListTodos/>
-    </> );
-}
- 
+  return (
+    <>
+      <AddTodo />
+      <ListTodos />
+    </>
+  );
+};
+
 export default ToDos;
